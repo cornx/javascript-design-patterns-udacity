@@ -1,17 +1,3 @@
-// cat clicker v1.0
-var macka = document.querySelector(".macka"),
-    brojac = document.querySelector(".counter"),
-    nKlikova = 0;
-
-macka.addEventListener("click", function() {
-    nKlikova++;
-    brojac.innerHTML = nKlikova;
-});
-
-
-
-
-
 // cat clicker v2.0
 var macka1 = document.querySelector(".macka1"),
     macka2 = document.querySelector(".macka2"),

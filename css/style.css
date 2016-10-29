@@ -4,23 +4,84 @@ html {
     text-align: center;
 }
 
+.lijevo {
+    text-align: left
+}
+
 img {
-    width: 50%;
-    height: auto;
     position: relative;
     float: left;
-    margin: 20px 25%;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+.wrapper {
+    width: 100%;
+    position: relative;
+    float: left;
+}
+
+.clear-fix {
+    clear: both;
+    height: 10px;
 }
 
 .macka {
-    cursor: pointer
+    width: 50%;
+    height: auto;
+    margin: 20px 25%;
 }
 
-.macka:active {
+img:active {
     opacity: 0.9;
 }
 
+.pola {
+    margin: 50px 2%;
+    width: 46%;
+    position: relative;
+    float: left;
+    cursor: pointer
+}
+
+.ime {
+    background: #fff;
+    position: relative;
+    top: -50px;
+    left: 10px;
+    font-size: 1.2rem;
+    text-align: left;
+    font-weight: bold;
+    color: #000
+}
+
+.counter2 {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #ac0202;
+    position: absolute;
+    bottom: -40px;
+    right: 0px;
+    padding: 0px 10px;
+    float: left;
+    text-align: left;
+    background: #fff;
+}
+
+.macka1 {
+    background: url("../img/cat.jpg") center no-repeat;
+    height: 400px;
+    position: relative;
+}
+
+.macka2 {
+    background: url("../img/cat2.jpg") center no-repeat;
+    height: 400px;
+    position: relative;
+}
+.macka1:active, .macka2:active {
+	opacity: 0.8
+}
 .counter {
     font-weight: bold;
     font-size: 2rem;
