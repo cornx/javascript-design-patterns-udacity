@@ -1,0 +1,28 @@
+html {
+    font-family: sans-serif;
+    line-height: 1.4;
+    text-align: center;
+}
+
+img {
+    width: 50%;
+    height: auto;
+    position: relative;
+    float: left;
+    margin: 20px 25%;
+    border-radius: 5px;
+}
+
+.macka {
+    cursor: pointer
+}
+
+.macka:active {
+    opacity: 0.9;
+}
+
+.counter {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #ac0202
+}
