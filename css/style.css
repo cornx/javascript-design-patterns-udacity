@@ -72,12 +72,14 @@ img:active {
     background: url("../img/cat.jpg") center no-repeat;
     height: 400px;
     position: relative;
+    border-radius: 5px
 }
 
 .macka2 {
     background: url("../img/cat2.jpg") center no-repeat;
     height: 400px;
     position: relative;
+    border-radius: 5px
 }
 .macka1:active, .macka2:active {
 	opacity: 0.8
